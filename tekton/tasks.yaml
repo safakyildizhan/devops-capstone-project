@@ -81,4 +81,4 @@ spec:
         python -m pip install --upgrade pip wheel
         pip install -qr requirements.txt
         echo "***** Running nosetests with: $(params.args)"
-        nosetests $(params.arg
+        nosetests $(params.args)
